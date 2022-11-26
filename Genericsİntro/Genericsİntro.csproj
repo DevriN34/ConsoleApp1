@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C68CB74F-2CDD-4435-B7EB-D9C794AF68E1}</ProjectGuid>
+    <ProjectGuid>{95867B5C-8856-498D-B211-C6735602E7D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kampİntro</RootNamespace>
-    <AssemblyName>İntro</AssemblyName>
+    <RootNamespace>Genericsİntro</RootNamespace>
+    <AssemblyName>Genericsİntro</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mylist.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
